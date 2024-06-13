@@ -6,21 +6,25 @@
     <title>Document</title>
 </head>
 <body>
-    <label for="Aiden kataminsky">
-        input number or sometinhfg
+    <h2>FINAL DEVOPS PROJECT!!!</h2>
+    <br/><br/>
+    <label for="inputText">
+        input some text!  
     </label>
-    
-    <input type="string" name="Aiden kataminsky" id="inputForSubmit">
+    <input type="string" name="inputText" id="inputAndSubmit"/>
     <br><br>
-    <button onclick="onButtonClick()">sumbit</button>    
+    <button onClick="onClickFunc()">submit</button>
+    <br><br>
+    <h2 id="output"></h2>
 
     <script>
-        function onButtonClick()
+        function onClickFunc()
         {
-            var input = document.getElementById("inputForSubmit").value.toString();
-            alert(input);
+            var input = document.getElementById("inputAndSubmit").value.toString()
+            alert("Your input is: "+ input)
+            document.getElementById("output").innerText = input
         }
     </script>
+    
 </body>
-
 </html>
