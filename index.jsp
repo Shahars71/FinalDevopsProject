@@ -9,7 +9,7 @@
     <h2>FINAL DEVOPS PROJECT!!!</h2>
     <br/><br/>
     <label for="inputText">
-        input some text!  
+        input some more text!  
     </label>
     <input type="string" name="inputText" id="inputAndSubmit"/>
     <br><br>
